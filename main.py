@@ -1,3 +1,4 @@
+# Test-Änderung für GitHub sichtbar
 from flask import Flask, request, jsonify
 from hd_engine.chart_calculator import calculate_chart
 
