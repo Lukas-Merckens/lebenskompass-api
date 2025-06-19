@@ -4,35 +4,41 @@ from hd_engine.planet_positions import calculate_planet_positions
 
 app = Flask(__name__)
 
+# Human Design Chart aus Geburtsdaten berechnen
 @app.route("/api/hd", methods=["POST"])
 def hd_api():
     data = request.json
-    birthdate = data.get("birthdate")   # Format: "1966-12-02"
-    birthtime = data.get("birthtime")   # Format: "22:54"
-    birthplace = data.get("birthplace") # z. B. "Vienna"
-    timezone_offset = float(data.get("timezone_offset", 1.0))  # Optional – Standard +1
+    birthdate = data.get("birthdate")
+    birthtime = data.get("birthtime")
+    birthplace = data.get("birthplace")
 
     if not all([birthdate, birthtime, birthplace]):
         return jsonify({"error": "Missing data"}), 400
 
-    # Datum & Uhrzeit aufsplitten
+    result = calculate_chart(birthdate, birthtime, birthplace)
+    return jsonify(result)
+
+# Planetenpositionen aus Swiss Ephemeris berechnen
+@app.route("/api/planets", methods=["POST"])
+def planet_api():
+    data = request.json
     try:
-        year, month, day = map(int, birthdate.split("-"))
-        hour, minute = map(int, birthtime.split(":"))
-    except ValueError:
-        return jsonify({"error": "Invalid date/time format"}), 400
+        year = int(data.get("year"))
+        month = int(data.get("month"))
+        day = int(data.get("day"))
+        hour = int(data.get("hour"))
+        minute = int(data.get("minute"))
+        second = int(data.get("second", 0))
+        timezone_offset = float(data.get("timezone_offset", 1.0))  # Standard: Mitteleuropäische Zeit
 
-    # 1. Human Design Chart berechnen
-    hd_result = calculate_chart(birthdate, birthtime, birthplace)
+    except (TypeError, ValueError):
+        return jsonify({"error": "Invalid or missing input values"}), 400
 
-    # 2. Planetenpositionen berechnen
-    planet_result = calculate_planet_positions(year, month, day, hour, minute, 0, timezone_offset)
+    result = calculate_planet_positions(
+        year, month, day, hour, minute, second, timezone_offset
+    )
+    return jsonify(result)
 
-    # Ergebnis kombinieren
-    return jsonify({
-        "human_design": hd_result,
-        "planets": planet_result
-    })
 
 
 
