@@ -29,7 +29,7 @@ def planet_api():
         hour = int(data.get("hour"))
         minute = int(data.get("minute"))
         second = int(data.get("second", 0))
-        timezone_offset = float(data.get("timezone_offset", 1.0))  # Standard: Mitteleuropäische Zeit
+        timezone_offset = float(data.get("timezone_offset", 1.0))  # Standard: MEZ
 
     except (TypeError, ValueError):
         return jsonify({"error": "Invalid or missing input values"}), 400
