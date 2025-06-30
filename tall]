@@ -1,0 +1,12 @@
+[0;1;31m×[0m lebenskompass.service - Gunicorn instance to serve lebenskompass-api
+     Loaded: loaded (]8;;file://lebenskompass-api-v2/etc/systemd/system/lebenskompass.service/etc/systemd/system/lebenskompass.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)
+     Active: [0;1;31mfailed[0m (Result: exit-code) since Sun 2025-06-29 06:05:35 UTC; 8s ago
+   Duration: 504us
+    Process: 38910 ExecStart=/root/lebenskompass-api-v2/venv/bin/gunicorn --workers 3 --bind 0.0.0.0:8000 app:app [0;1;31m(code=exited, status=203/EXEC)[0m
+   Main PID: 38910 (code=exited, status=203/EXEC)
+        CPU: 532us
+
+Jun 29 06:05:35 lebenskompass-api-v2 systemd[1]: lebenskompass.service: Scheduled restart job, restart counter is at 5.
+Jun 29 06:05:35 lebenskompass-api-v2 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mlebenskompass.service: Start request repeated too quickly.[0m
+Jun 29 06:05:35 lebenskompass-api-v2 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mlebenskompass.service: Failed with result 'exit-code'.[0m
+Jun 29 06:05:35 lebenskompass-api-v2 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start lebenskompass.service - Gunicorn instance to serve lebenskompass-api.[0m

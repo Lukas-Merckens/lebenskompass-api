@@ -1,0 +1,1419 @@
+Starte Flask-Server...
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://95.216.154.127:5000
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [27/Jun/2025 10:03:00] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [27/Jun/2025 10:04:10] "POST /api/planets HTTP/1.1" 200 -
+127.0.0.1 - - [27/Jun/2025 10:05:56] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [27/Jun/2025 10:33:58] "[33mGET / HTTP/1.0[0m" 404 -
+127.0.0.1 - - [27/Jun/2025 10:33:58] "[33mGET /js/lkk_ch.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [27/Jun/2025 10:33:58] "[33mGET /js/twint_ch.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [27/Jun/2025 10:43:58] "[33mGET /.git/config HTTP/1.0[0m" 404 -
+✔ app.run wird jetzt ausgeführt...
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://95.216.154.127:5000
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [28/Jun/2025 08:14:33] "[33mGET / HTTP/1.0[0m" 404 -
+✔ app.run wird jetzt ausgeführt...
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+127.0.0.1 - - [28/Jun/2025 08:18:49] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 08:23:27] "[33mGET / HTTP/1.0[0m" 404 -
+✅ app.run wird jetzt ausgeführt...
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://95.216.154.127:5000
+[33mPress CTRL+C to quit[0m
+✅ app.run wird jetzt ausgeführt...
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://95.216.154.127:5000
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [28/Jun/2025 08:44:47] "[33mGET /admin/assets/js/pbxlib.js HTTP/1.0[0m" 404 -
+✅ app.run wird jetzt ausgeführt...
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+✅ app.run wird jetzt ausgeführt...
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 8000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+Traceback (most recent call last):
+  File "/root/lebenskompass-api/lebenskompass-api/app.py", line 2, in <module>
+    from hd_engine.planet_positions import calculate_planet_positions
+  File "/root/lebenskompass-api/lebenskompass-api/hd_engine/planet_positions.py", line 1, in <module>
+    import swisseph as swe
+ModuleNotFoundError: No module named 'swisseph'
+Traceback (most recent call last):
+  File "/root/lebenskompass-api/lebenskompass-api/app.py", line 2, in <module>
+    from hd_engine.planet_positions import calculate_planet_positions
+  File "/root/lebenskompass-api/lebenskompass-api/hd_engine/planet_positions.py", line 1, in <module>
+    import swisseph as swe
+ModuleNotFoundError: No module named 'swisseph'
+Traceback (most recent call last):
+  File "/root/lebenskompass-api/lebenskompass-api/app.py", line 2, in <module>
+    from hd_engine.planet_positions import calculate_planet_positions
+  File "/root/lebenskompass-api/lebenskompass-api/hd_engine/planet_positions.py", line 1, in <module>
+    import swisseph as swe
+ModuleNotFoundError: No module named 'swisseph'
+✅ app.run wird jetzt ausgeführt...
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://95.216.154.127:5000
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [28/Jun/2025 09:47:42] "[31m[1mPOST /api/planets HTTP/1.0[0m" 400 -
+127.0.0.1 - - [28/Jun/2025 09:48:55] "[31m[1mPOST /api/planets HTTP/1.0[0m" 400 -
+127.0.0.1 - - [28/Jun/2025 09:51:33] "[31m[1mPOST /api/planets HTTP/1.0[0m" 400 -
+✅ app.run wird jetzt ausgeführt...
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 8000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+127.0.0.1 - - [28/Jun/2025 09:54:02] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 09:54:46] "[31m[1mPOST /api/planets HTTP/1.0[0m" 400 -
+127.0.0.1 - - [28/Jun/2025 09:55:59] "[31m[1mPOST /api/planets HTTP/1.0[0m" 400 -
+✅ app.run wird jetzt ausgeführt...
+ * Serving Flask app 'app'
+ * Debug mode: off
+Address already in use
+Port 8000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+127.0.0.1 - - [28/Jun/2025 09:57:24] "[31m[1mPOST /api/planets HTTP/1.0[0m" 400 -
+127.0.0.1 - - [28/Jun/2025 09:58:58] "POST /api/planets HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 10:01:11] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 10:01:17] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 10:01:39] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 10:13:56] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 10:14:07] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 10:24:43] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 10:24:49] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 10:25:29] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 10:28:55] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 10:30:49] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 10:30:57] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 10:31:49] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 10:32:11] "[33mGET /login HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 10:40:23] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 10:41:20] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 10:41:31] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 10:42:42] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 10:49:06] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 10:49:06] "[31m[1mPOST / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [28/Jun/2025 10:50:32] "[33mGET /admin/configs.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 10:52:02] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 10:52:02] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 10:52:05] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 11:01:41] "[33mGET /admin/assets/js/pbxlib.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 11:05:17] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 11:06:06] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 11:06:06] "[33mGET /js/lkk_ch.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 11:06:06] "[33mGET /js/twint_ch.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 11:17:41] "[33mHEAD /phpMyAdmin-2.11.4/scripts/setup.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 11:18:27] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 11:18:33] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 11:19:07] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 11:21:09] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 11:21:17] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 11:21:29] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 11:24:48] "[33mGET /upl.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 11:24:48] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 11:24:49] "[33mGET /systembc/password.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 11:24:49] "[33mGET /form.html HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 11:24:49] "[33mGET /t4 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 11:24:50] "[33mGET /geoip/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 11:24:50] "[33mGET /1.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 11:24:50] "[33mGET /password.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 11:28:18] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 11:30:01] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 11:30:01] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 11:30:02] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 11:30:03] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 11:30:03] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 11:30:04] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 11:36:50] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 11:36:52] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 11:37:13] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 11:37:14] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 11:37:20] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 11:37:27] "[33mGET /.well-known/security.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 11:40:54] "GET / HTTP/1.0" 200 -
+152.32.235.160 - - [28/Jun/2025 11:41:16] "GET / HTTP/1.1" 200 -
+152.32.235.160 - - [28/Jun/2025 11:41:16] code 400, message Bad request version ('À\x13À')
+152.32.235.160 - - [28/Jun/2025 11:41:16] "[31m[1m\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03 ª;µõãÅ\x1dµ\x08dX\x03âòïÃuæ\x7f\x8b\x03Ã9þ\x04\x18\x15\x07±\x93Ý äHYg*\x8f·¥ÀÀ<vI\\mDB\x16\x15¢¢fèõ\x8cáYÿ\x90\x8fj\x93\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+152.32.235.160 - - [28/Jun/2025 11:41:17] code 400, message Bad HTTP/0.9 request type ('t3')
+152.32.235.160 - - [28/Jun/2025 11:41:17] "[31m[1mt3 12.1.2[0m" 400 -
+101.36.108.133 - - [28/Jun/2025 11:42:16] "GET / HTTP/1.1" 200 -
+101.36.108.133 - - [28/Jun/2025 11:42:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+101.36.108.133 - - [28/Jun/2025 11:42:17] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+101.36.108.133 - - [28/Jun/2025 11:42:17] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 11:43:00] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 11:58:29] "[33mPOST /xmlrpc.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 12:04:00] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 12:04:00] "[31m[1mPOST / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [28/Jun/2025 12:08:50] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 12:08:56] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 12:09:12] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 12:09:21] "[33mGET /login HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 12:10:53] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 12:10:53] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 12:10:55] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 12:18:52] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 12:25:06] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 12:48:19] "[33mGET /.git/config HTTP/1.0[0m" 404 -
+135.237.126.211 - - [28/Jun/2025 12:53:12] "[33mGET /v2/ HTTP/1.1[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 12:56:03] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 12:57:46] "[33mGET /admin/assets/js/pbxlib.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 13:03:02] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 13:03:02] "[31m[1mPOST / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [28/Jun/2025 13:03:26] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 13:12:19] "[33mGET /.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 13:12:49] "[33mGET /wp-sitemap.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 13:14:35] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 13:18:07] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 13:18:11] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 13:18:11] "[33mGET /.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 13:18:23] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 13:20:35] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 13:24:01] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 13:27:23] "[33mGET /webui/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 13:31:23] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+35.203.211.83 - - [28/Jun/2025 13:31:37] code 400, message Bad request version ('À\x13À')
+35.203.211.83 - - [28/Jun/2025 13:31:37] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03o¤é\x8f?\x0d.\x8d¸Õ\x9c|©g&P|â\x7f¥5\x1f\x83£d\x1boÆ=:ÃÐ ßÖ\x82\x9cìw«QUõcÿÛ®sÓt¿Ý\x9c\x9fÎqAÉý\x8emÁ/\x7fd\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+35.203.211.83 - - [28/Jun/2025 13:31:37] code 400, message Bad request version ('À(À$À\x14À')
+35.203.211.83 - - [28/Jun/2025 13:31:37] "[31m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03¦¡m\x97\x03\x1d\x08oÃ\x13³ã\x05\x97«'ZWDdÕºBfJ\\\x06\\ûxÜm\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À[0m" 400 -
+127.0.0.1 - - [28/Jun/2025 13:32:24] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 13:32:48] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 13:36:19] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 13:42:47] "[33mGET /geoserver/web/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 13:44:22] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 13:44:22] "[31m[1mPOST / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [28/Jun/2025 13:45:41] "[33mGET /.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 14:04:22] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 14:11:52] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 14:14:21] "GET / HTTP/1.0" 200 -
+89.144.206.124 - - [28/Jun/2025 14:17:57] "[33mGET /zeichen HTTP/1.1[0m" 404 -
+[2025-06-28 14:24:27 +0000] [24829] [INFO] Starting gunicorn 23.0.0
+[2025-06-28 14:24:27 +0000] [24829] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2025-06-28 14:24:27 +0000] [24829] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2025-06-28 14:24:28 +0000] [24829] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2025-06-28 14:24:28 +0000] [24829] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2025-06-28 14:24:29 +0000] [24829] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2025-06-28 14:24:29 +0000] [24829] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2025-06-28 14:24:30 +0000] [24829] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2025-06-28 14:24:30 +0000] [24829] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2025-06-28 14:24:31 +0000] [24829] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2025-06-28 14:24:31 +0000] [24829] [ERROR] connection to ('127.0.0.1', 8000) failed: [Errno 98] Address already in use
+[2025-06-28 14:24:32 +0000] [24829] [ERROR] Can't connect to ('127.0.0.1', 8000)
+127.0.0.1 - - [28/Jun/2025 14:26:01] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 14:29:15] "[33mGET /zeichen HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 14:32:23] "[33mGET /zeichen HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 14:34:33] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 14:34:33] "[33mGET /api.json HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 14:35:25] "[33mGET /zeichen HTTP/1.0[0m" 404 -
+[2025-06-28 14:43:20 +0000] [26223] [INFO] Starting gunicorn 23.0.0
+[2025-06-28 14:43:20 +0000] [26223] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-06-28 14:43:20 +0000] [26223] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-06-28 14:43:21 +0000] [26223] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-06-28 14:43:21 +0000] [26223] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-06-28 14:43:22 +0000] [26223] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-06-28 14:43:22 +0000] [26223] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-06-28 14:43:23 +0000] [26223] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-06-28 14:43:23 +0000] [26223] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-06-28 14:43:24 +0000] [26223] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-06-28 14:43:24 +0000] [26223] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-06-28 14:43:25 +0000] [26223] [ERROR] Can't connect to ('0.0.0.0', 8000)
+127.0.0.1 - - [28/Jun/2025 14:43:35] "[33mGET /zeichen HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 14:44:27] "GET / HTTP/1.0" 200 -
+89.144.206.124 - - [28/Jun/2025 14:48:50] "GET / HTTP/1.1" 200 -
+89.144.206.124 - - [28/Jun/2025 14:49:13] "[33mGET /zeichen HTTP/1.1[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 14:50:49] "[33mGET /zeichen HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 14:51:35] "[33mGET /zeichen HTTP/1.0[0m" 404 -
+[2025-06-28 14:53:45 +0000] [26467] [INFO] Starting gunicorn 23.0.0
+[2025-06-28 14:53:45 +0000] [26467] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-06-28 14:53:45 +0000] [26467] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-06-28 14:53:46 +0000] [26467] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-06-28 14:53:46 +0000] [26467] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-06-28 14:53:47 +0000] [26467] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-06-28 14:53:47 +0000] [26467] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-06-28 14:53:48 +0000] [26467] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-06-28 14:53:48 +0000] [26467] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-06-28 14:53:49 +0000] [26467] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-06-28 14:53:49 +0000] [26467] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-06-28 14:53:50 +0000] [26467] [ERROR] Can't connect to ('0.0.0.0', 8000)
+127.0.0.1 - - [28/Jun/2025 15:04:47] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 15:04:47] "[31m[1mPOST / HTTP/1.0[0m" 405 -
+[2025-06-28 15:21:05 +0000] [27726] [INFO] Starting gunicorn 23.0.0
+[2025-06-28 15:21:05 +0000] [27726] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-06-28 15:21:05 +0000] [27726] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-06-28 15:21:06 +0000] [27726] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-06-28 15:21:06 +0000] [27726] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-06-28 15:21:07 +0000] [27726] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-06-28 15:21:07 +0000] [27726] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-06-28 15:21:08 +0000] [27726] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-06-28 15:21:08 +0000] [27726] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-06-28 15:21:09 +0000] [27726] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-06-28 15:21:09 +0000] [27726] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-06-28 15:21:10 +0000] [27726] [ERROR] Can't connect to ('0.0.0.0', 8000)
+127.0.0.1 - - [28/Jun/2025 15:29:59] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 15:30:11] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 15:49:14] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 15:59:16] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 15:59:16] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 15:59:16] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 15:59:16] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 15:59:16] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 16:06:16] "[33mGET /wp-content/plugins/init-help/init.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:16] "[33mGET /zwso.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:16] "[33mGET /wp-includes/style-engine/wp-conflg.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:17] "[33mGET /wp-content/plugins/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:17] "[33mGET /wp-includes/ID3/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:17] "[33mGET /wp-content/plugins/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:17] "[33mGET /wp-admin/network/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:17] "[33mGET /wp-includes/IXR/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:17] "[33mGET /wp-admin/images/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:17] "[33mGET /wp-login.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:17] "[33mGET /wp-content/plugins/admin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:17] "[33mGET /xmlrpc.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:17] "[33mGET /wp-admin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:17] "[33mGET /wp-content/plugins/Core-Econ/upH.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:17] "[33mGET /wp-content/plugins/fix/up.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:17] "[33mGET /wp-content/plugins/pwnd/pwnd.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:17] "[33mGET /wp-content/plugins/shell/noimg.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:17] "[33mGET /WSOEnigma.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:18] "[33mGET /wp-content/plugins/pwnd-1/pwnd.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:18] "[33mGET /wp-content/plugins/dummyyummy/wp-signup.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:18] "[33mGET /wp-content/plugins/clara/clara.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:18] "[33mGET /plugins/function.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:18] "[33mGET /file/function.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:18] "[33mGET /as/function HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:18] "[33mGET /mah/function.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:18] "[33mGET /admin/function.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:18] "[33mGET /doc/function.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:18] "[33mGET /about/function.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:18] "[33mGET /index/function.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:18] "[33mGET /wp-content/uploads/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:18] "[33mGET /wp-includes/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:18] "[33mGET /.well-known/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:18] "[33mGET /ALFA_DATA/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:18] "[33mGET /.well-knownold/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:19] "[33mGET /.well-known/acme-challenge/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:19] "[33mGET /.well-known/pki-validation/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:19] "[33mGET /images/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:19] "[33mGET /assets/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:19] "[33mGET /wp-includes/js/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:19] "[33mGET /wp-includes/pomo/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:19] "[33mGET /wp-includes/rest-api/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:19] "[33mGET /wp-includes/widgets/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:19] "[33mGET /wp-admin/css/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:19] "[33mGET /wp-admin/images/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:19] "[33mGET /wp-admin/maint/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:19] "[33mGET /wp-admin/meta/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:19] "[33mGET /wp-admin/network/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:19] "[33mGET /wp-admin/user/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:19] "[33mGET /wp-content/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:20] "[33mGET /wp-content/plugins/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:20] "[33mGET /wp-content/themes/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:20] "[33mGET /wp-admin/includes/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:20] "[33mGET /wp-admin/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:20] "[33mGET /wp-includes/css/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:20] "[33mGET /wp-includes/ID3/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:20] "[33mGET /wp-includes/IXR/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:20] "[33mGET /wp-includes/Requests/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:20] "[33mGET /wp-includes/SimplePie/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:20] "[33mGET /wp-includes/Text/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:20] "[33mGET /wp-includes/Text/Diff/Renderer/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:20] "[33mGET /wp-includes/blocks/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:20] "[33mGET /wp-includes/certificates/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:20] "[33mGET /wp-includes/customize/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:20] "[33mGET /wp-includes/fonts/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:21] "[33mGET /wp-includes/images/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:21] "[33mGET /wp-includes/js/codemirror/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:21] "[33mGET /wp-includes/js/crop/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:21] "[33mGET /wp-includes/js/dist/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:21] "[33mGET /wp-includes/js/dist/development/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:21] "[33mGET /wp-includes/js/dist/vendor/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:21] "[33mGET /wp-includes/js/imgareaselect/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:21] "[33mGET /wp-includes/js/tinymce/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:21] "[33mGET /wp-includes/js/tinymce/langs/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:21] "[33mGET /wp-includes/js/tinymce/plugins/compat3x/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:21] "[33mGET /wp-includes/js/tinymce/skins/lightgray/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:21] "[33mGET /wp-includes/js/jcrop/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:21] "[33mGET /wp-includes/js/jquery/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:21] "[33mGET /wp-includes/js/mediaelement/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:21] "[33mGET /wp-includes/js/mediaelement/renderers/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:21] "[33mGET /wp-includes/js/plupload/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:22] "[33mGET /wp-includes/js/swfupload/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:22] "[33mGET /wp-includes/images/crystal/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:22] "[33mGET /wp-includes/js/thickbox/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:22] "[33mGET /wp-includes/images/media/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:22] "[33mGET /wp-includes/sodium_compat/namespaced/Core/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:22] "[33mGET /wp-includes/sodium_compat/namespaced HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:22] "[33mGET /wp-includes/theme-compat/theme-compat/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:22] "[33mGET /wp-includes/rest-api/fields/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:22] "[33mGET /wp-includes/Requests/library/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:22] "[33mGET /wp-includes/Requests/src/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:22] "[33mGET /wp-includes/rest-api/endpoints/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:22] "[33mGET /wp-includes/rest-api/search/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:22] "[33mGET /wp-includes/Text/Diff/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:22] "[33mGET /wp-includes/sitemaps/providers/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:22] "[33mGET /wp-includes/sodium_compat/src/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:23] "[33mGET /wp-includes/Text/Diff/Engine/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:23] "[33mGET /uploads/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:23] "[33mGET /upload/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:23] "[33mGET /admin/uploads/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:23] "[33mGET /UserFiles/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:23] "[33mGET /usersfiles/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:23] "[33mGET /img/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:23] "[33mGET /vendor/phpunit/phpunit/src/Util/PHP/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:23] "[33mGET /upload/image/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:23] "[33mGET /assets/images/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:23] "[33mGET /sites/default/files/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:23] "[33mGET /admin/controller/extension/extension/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:23] "[33mGET /templates/beez3/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:23] "[33mGET /modules/mod_simplefileuploadv1.3/elements/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:23] "[33mGET /up/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:06:23] "[33mGET /plugins/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:17:53] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 16:49:26] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 16:50:32] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 16:53:01] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 16:53:01] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 17:01:31] "[33mGET /.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:03:57] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 17:04:06] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 17:08:35] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:08:35] "[33mGET /wp-content/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:15:39] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 17:20:06] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 17:26:26] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:26:26] "[31m[1mPOST / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [28/Jun/2025 17:33:21] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 17:34:46] "[33mGET /sftp-config.json HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:34:49] "[33mGET /.vscode/sftp.json HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:40:09] "[33mGET /7ziB HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:40:10] "[33mGET /kkN9 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:40:10] "[33mGET /aab8 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:40:11] "[33mGET /jquery-3.3.1.slim.min.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:40:13] "[33mGET /aab9 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:40:13] "[33mGET /jquery-3.3.2.slim.min.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:41:05] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:41:05] "[33mGET /.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:43:50] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 17:48:19] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:52:13] "[33mGET /buy.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:52:13] "[33mGET /item.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:52:13] "[33mGET /x.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:52:13] "[33mGET /k.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:52:13] "[33mGET /wp-fmfile.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:52:14] "[33mGET /wi.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:52:14] "[33mGET /403.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:52:14] "[33mGET /php8.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:52:14] "[33mGET /fix.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:52:14] "[33mGET /tes.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:52:14] "[33mGET /headers.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:52:14] "[33mGET /info.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:52:14] "[33mGET /admin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:52:14] "[33mGET /flower.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:52:14] "[33mGET /.well-known/gecko-litespeed.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:52:14] "[33mGET /wp-content/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:52:14] "[33mGET /1.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:52:14] "[33mGET /lv.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:52:14] "[33mGET /gecko.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:52:14] "[33mGET /xmlrpc.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:52:15] "[33mGET /f35.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:52:15] "[33mGET /autoload_classmap.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:52:15] "[33mGET /NewFile.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:52:15] "[33mGET /xx.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:52:15] "[33mGET /file.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:52:15] "[33mGET /plugins.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:52:15] "[33mGET /alfa.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:52:15] "[33mGET /xxx.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:52:15] "[33mGET /css.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:52:15] "[33mGET /admin/controller/extension/extension/ultra.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:52:15] "[33mGET /xpw.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:52:15] "[33mGET /array.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:54:02] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 17:54:07] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:54:32] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 17:55:07] "[33mGET /.well-known/security.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:12] "[33mGET /wp-content/plugins/pwnd/pwnd.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:12] "[33mGET /moon.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:12] "[33mGET /wp.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:12] "[33mGET /wp-includes/sodium_compat/namespaced/Core/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:12] "[33mGET /about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:13] "[33mGET /wp-content/plugins/pwnd-1/pwnd.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:13] "[33mGET /wp-includes/certificates/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:13] "[33mGET /wp-includes/widgets/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:13] "[33mGET /wp-includes/js/mediaelement/renderers/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:13] "[33mGET /wp-includes/rest-api/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:13] "[33mGET /ws.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:13] "[33mGET /wp-includes/sodium_compat/src/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:13] "[33mGET /zwso.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:13] "[33mGET /wp-includes/style-engine/wp-conflg.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:13] "[33mGET /blog.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:13] "[33mGET /plugins/function.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:13] "[33mGET /admin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:13] "[33mGET /wp-comments-post.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:13] "[33mGET /wp-signup.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:13] "[33mGET /wp-includes/css/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:14] "[33mGET /wp-blog-header.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:14] "[33mGET /chosen.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:14] "[33mGET /wp-includes/js/crop/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:14] "[33mGET /404.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:14] "[33mGET /wp-includes/rest-api/endpoints/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:14] "[33mGET /usersfiles/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:14] "[33mGET /sites/default/files/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:14] "[33mGET /upload/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:14] "[33mGET /log.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:14] "[33mGET /wp-includes/IXR/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:14] "[33mGET /wp-includes/js/tinymce/skins/lightgray/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:14] "[33mGET /install.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:14] "[33mGET /wp-content/themes/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:14] "[33mGET /index/function.php/img/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:14] "[33mGET /radio.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:15] "[33mGET /bypass.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:15] "[33mGET /about/function.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:15] "[33mGET /ALFA_DATA/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:15] "[33mGET /inputs.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:15] "[33mGET /hoot.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:15] "[33mGET /plugins.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:15] "[33mGET /wp-admin/network/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:15] "[33mGET /modules/mod_simplefileuploadv1.3/elements/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:15] "[33mGET /wp-admin/images/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:15] "[33mGET /edit.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:15] "[33mGET /wp-includes/images/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:15] "[33mGET /wp-content/plugins/init-help/init.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:15] "[33mGET /wp-admin/network/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:15] "[33mGET /updates.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:15] "[33mGET /dropdown.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:16] "[33mGET /wp-includes/customize/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:16] "[33mGET /wp-includes/js/codemirror/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:16] "[33mGET /wp-admin/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:16] "[33mGET /xmrlpc.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:16] "[33mGET /wp-includes/js/tinymce/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:16] "[33mGET /wp-load.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:16] "[33mGET /wp-content/plugins/admin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:16] "[33mGET /admin/controller/extension/extension/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:16] "[33mGET /wp-includes/blocks/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:16] "[33mGET /uploads/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:16] "[33mGET /wp-includes/js/thickbox/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:16] "[33mGET /alfanew.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:16] "[33mGET /assets/images/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:16] "[33mGET /vendor/phpunit/phpunit/src/Util/PHP/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:16] "[33mGET /wp-includes/SimplePie/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:17] "[33mGET /wp-includes/images/media/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:17] "[33mGET /wp-includes/pomo/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:17] "[33mGET /wp-content/plugins/clara/clara.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:17] "[33mGET /wp-includes/js/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:17] "[33mGET /wp-content/uploads/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:17] "[33mGET /wp-includes/theme-compat/theme-compat/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:17] "[33mGET /wp-includes/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:17] "[33mGET /wp-conflg.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:17] "[33mGET /wp-content/plugins/Core-Econ/upH.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:17] "[33mGET /wp-sigunq.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:17] "[33mGET /shell.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:17] "[33mGET /admin/function.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:17] "[33mGET /wp-includes/js/tinymce/langs/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:17] "[33mGET /wp-includes/Requests/src/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:17] "[33mGET /doc/function.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:18] "[33mGET /wp-includes/IXR/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:18] "[33mGET /wp-admin/css/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:18] "[33mGET /wp-includes/rest-api/search/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:18] "[33mGET /as.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:18] "[33mGET /wp-cron.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:18] "[33mGET /wp-activate.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:18] "[33mGET /wp-includes/js/jquery/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:18] "[33mGET /content.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:18] "[33mGET /simple.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:18] "[33mGET /wp-trackback.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:18] "[33mGET /wp-includes/Requests/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:18] "[33mGET /wp-2019.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:18] "[33mGET /wp-admin/includes/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:18] "[33mGET /wp-content/plugins/dummyyummy/wp-signup.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:18] "[33mGET /post.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:19] "[33mGET /.well-knownold/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:19] "[33mGET /wp-includes/js/dist/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:19] "[33mGET /wp-content/plugins/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:19] "[33mGET /wp-admin/maint/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:19] "[33mGET /templates/beez3/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:19] "[33mGET /wp-includes/ID3/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:19] "[33mGET /wp-content/plugins/fix/up.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:19] "[33mGET /mail.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:19] "[33mGET /wp-includes/js/dist/vendor/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:19] "[33mGET /wp-includes/Text/Diff/Engine/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:19] "[33mGET /admin/uploads/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:19] "[33mGET /wp-includes/fonts/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:19] "[33mGET /wp-includes/js/jcrop/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:19] "[33mGET /wp-includes/Requests/library/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:19] "[33mGET /wp-includes/js/swfupload/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:20] "[33mGET /wp-content/plugins/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:20] "[33mGET /mah/function.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:20] "[33mGET /.well-known/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:20] "[33mGET /wp-includes/sodium_compat/namespaced HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:20] "[33mGET /xmlrpc.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:20] "[33mGET /wp-content/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:20] "[33mGET /plugins/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:20] "[33mGET /wp-mail.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:20] "[33mGET /css.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:20] "[33mGET /as/function HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:20] "[33mGET /ini.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:20] "[33mGET /wp-includes/js/tinymce/plugins/compat3x/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:20] "[33mGET /.well-known/pki-validation/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:20] "[33mGET /bak.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:20] "[33mGET /ae.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:21] "[33mGET /wp-includes/images/crystal/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:21] "[33mGET /wp-includes/js/plupload/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:21] "[33mGET /.well-known/acme-challenge/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:21] "[33mGET /wp-includes/Text/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:21] "[33mGET /makeasmtp.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:21] "[33mGET /themes.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:21] "[33mGET /wp-includes/js/imgareaselect/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:21] "[33mGET /wp-admin/meta/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:21] "[33mGET /wp-admin/user/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:21] "[33mGET /wp-includes/js/mediaelement/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:21] "[33mGET /up/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:21] "[33mGET /wp-includes/ID3/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:21] "[33mGET /wp-admin/images/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:21] "[33mGET /wso112233.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:21] "[33mGET /wp-includes/Text/Diff/Renderer/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:22] "[33mGET /classsmtps.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:22] "[33mGET /fw.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:22] "[33mGET /wp-content/plugins/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:22] "[33mGET /wp-includes/sitemaps/providers/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:22] "[33mGET /file/function.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:22] "[33mGET /wp-content/plugins/shell/noimg.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:22] "[33mGET /wp-includes/Text/Diff/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:22] "[33mGET /upfile.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:22] "[33mGET /wp-includes/js/dist/development/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:22] "[33mGET /UserFiles/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:22] "[33mGET /wp-admin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:22] "[33mGET /wp-login.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:22] "[33mGET /WSOEnigma.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:22] "[33mGET /wp-includes/rest-api/fields/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:01:22] "[33mGET /geju.php HTTP/1.0[0m" 404 -
+162.142.125.221 - - [28/Jun/2025 18:10:41] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Ùþ;gaìÔ\x06â&\x90\x1am:N\x98\x04$\x9ddÜõ')
+162.142.125.221 - - [28/Jun/2025 18:10:41] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Ùþ;gaìÔ\x06â&\x90\x1am:N\x98\x04$\x9ddÜõ ¦§©[0m" 400 -
+162.142.125.221 - - [28/Jun/2025 18:10:45] "GET / HTTP/1.1" 200 -
+162.142.125.221 - - [28/Jun/2025 18:10:48] "GET / HTTP/1.1" 200 -
+162.142.125.221 - - [28/Jun/2025 18:10:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+162.142.125.221 - - [28/Jun/2025 18:10:49] code 505, message Invalid HTTP version (2.0)
+162.142.125.221 - - [28/Jun/2025 18:10:49] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+162.142.125.221 - - [28/Jun/2025 18:10:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+162.142.125.221 - - [28/Jun/2025 18:10:53] code 505, message Invalid HTTP version (2.0)
+162.142.125.221 - - [28/Jun/2025 18:10:53] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+162.142.125.221 - - [28/Jun/2025 18:10:57] code 400, message Bad request version ('i\x98Gk\x9a;É')
+162.142.125.221 - - [28/Jun/2025 18:10:57] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Ú[»Y 8¢é°7öáÞîM\x14jîÉ»´\x96\x82\x1be\x8c%¡\x0fÖBà \x99ðsP\x95·,rJ i\x98Gk\x9a;É[0m" 400 -
+162.142.125.221 - - [28/Jun/2025 18:10:57] "[33mGET /.well-known/security.txt HTTP/1.1[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:16:28] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 18:16:53] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 18:22:14] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:22:15] "[31m[1mPOST / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [28/Jun/2025 18:22:16] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:22:16] "[31m[1mPOST / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [28/Jun/2025 18:23:24] "[33mGET /.well-known/acme-challenge/cloud.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:23:26] "[33mGET /.well-known/acme-challenge/cloud.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:23:27] "[33mGET /.well-known/acme-challenge/xmrlpc.php?p= HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:23:58] "[33mGET /sites/all/libraries/elfinder/elfinder.html HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:26:15] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 18:26:15] "[33mGET /js/twint_ch.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:26:15] "[33mGET /js/lkk_ch.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:29:06] "[33mGET /admin/config.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:30:09] "[33mGET /developmentserver/metadatauploader HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:36:07] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 18:36:10] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 18:36:17] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 18:43:22] "GET / HTTP/1.0" 200 -
+139.162.173.209 - - [28/Jun/2025 18:43:22] "GET / HTTP/1.0" 200 -
+139.162.173.209 - - [28/Jun/2025 18:43:22] code 400, message Bad request version ('RTSP/1.0')
+139.162.173.209 - - [28/Jun/2025 18:43:22] "[31m[1mOPTIONS / RTSP/1.0[0m" 400 -
+139.162.173.209 - - [28/Jun/2025 18:43:27] code 400, message Bad HTTP/0.9 request type ('\x00')
+139.162.173.209 - - [28/Jun/2025 18:43:27] "[31m[1m\x00\x1e\x00\x06\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07version\x04bind\x00\x00\x10\x00\x03[0m" 400 -
+127.0.0.1 - - [28/Jun/2025 18:43:28] "GET / HTTP/1.0" 200 -
+139.162.173.209 - - [28/Jun/2025 18:43:32] code 400, message Bad request version ('0.12\x00')
+139.162.173.209 - - [28/Jun/2025 18:43:32] "[31m[1m\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00[0m" 400 -
+139.162.173.209 - - [28/Jun/2025 18:43:37] code 400, message Bad request version ('GetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00')
+139.162.173.209 - - [28/Jun/2025 18:43:37] "[31m[1m\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00\x0cGetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00[0m" 400 -
+139.162.173.209 - - [28/Jun/2025 18:43:37] "OPTIONS / HTTP/1.0" 200 -
+139.162.173.209 - - [28/Jun/2025 18:43:42] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+139.162.173.209 - - [28/Jun/2025 18:43:42] "[31m[1m\x80\x00\x00(rþ\x1d\x13\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86 \x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00[0m" 400 -
+139.162.173.209 - - [28/Jun/2025 18:43:42] code 400, message Bad request syntax ('HELP')
+139.162.173.209 - - [28/Jun/2025 18:43:42] "[31m[1mHELP[0m" 400 -
+139.162.173.209 - - [28/Jun/2025 18:43:42] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+139.162.173.209 - - [28/Jun/2025 18:43:42] "[31m[1m\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00[0m" 400 -
+139.162.173.209 - - [28/Jun/2025 18:43:42] code 400, message Bad request version ('\x00/\x00')
+139.162.173.209 - - [28/Jun/2025 18:43:42] "[31m[1m\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00[0m" 400 -
+139.162.173.209 - - [28/Jun/2025 18:43:42] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+139.162.173.209 - - [28/Jun/2025 18:43:42] "[31m[1m\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01[0m" 400 -
+139.162.173.209 - - [28/Jun/2025 18:43:47] code 400, message Bad HTTP/0.9 request type ('l\x00')
+139.162.173.209 - - [28/Jun/2025 18:43:47] "[31m[1ml\x00\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00[0m" 400 -
+139.162.173.209 - - [28/Jun/2025 18:43:47] code 400, message Bad request version ('SIP/2.0')
+139.162.173.209 - - [28/Jun/2025 18:43:47] "[31m[1mOPTIONS sip:nm SIP/2.0[0m" 400 -
+139.162.173.209 - - [28/Jun/2025 18:43:52] code 400, message Bad HTTP/0.9 request type ('AMQP\x00\x00')
+139.162.173.209 - - [28/Jun/2025 18:43:52] "[31m[1mAMQP\x00\x00\x09\x01[0m" 400 -
+127.0.0.1 - - [28/Jun/2025 18:44:07] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 18:44:07] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 18:44:08] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 18:44:08] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+139.162.173.209 - - [28/Jun/2025 18:44:17] code 400, message Bad request version ('øÆ\x873ÔçÍZ\x10]_à\x15(p\\®":Ø»\x99\x97§e¦¾\x02õ\x08Ì5\x00\x9c\x13\x02\x13\x03\x13\x01\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ]ÀaÀWÀSÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À\'\x00g\x00@ÀrÀv\x00¾\x00½À')
+139.162.173.209 - - [28/Jun/2025 18:44:17] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03¸É`P\x17ThNH<\x8cÌe6G6`L\x92 \x87èêîàÄ\x98Þ\x0d\x0fÜ7 øÆ\x873ÔçÍZ\x10]_à\x15(p\\®":Ø»\x99\x97§e¦¾\x02õ\x08Ì5\x00\x9c\x13\x02\x13\x03\x13\x01\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À­À£À\x9fÀ]ÀaÀWÀSÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀRÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À[0m" 400 -
+139.162.173.209 - - [28/Jun/2025 18:44:22] code 400, message Bad request version ('\x00/\x00')
+139.162.173.209 - - [28/Jun/2025 18:44:22] "[31m[1m\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00[0m" 400 -
+127.0.0.1 - - [28/Jun/2025 18:44:28] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 18:44:28] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 18:44:28] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 18:44:28] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 19:06:16] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 19:06:16] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 19:06:16] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 19:23:49] "[33mGET /admin/assets/css/jquery-ui.css HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 19:26:29] "[33mGET /media/system/js/core.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 19:26:30] "[33mGET /wp-includes/js/jquery/jquery.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 19:27:42] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 19:29:08] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 19:29:09] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 19:29:09] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 19:29:10] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 19:34:47] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 19:43:05] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 19:46:29] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 19:46:29] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 19:46:29] "[33mGET /wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 19:46:29] "[33mGET /xmlrpc.php?rsd HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 19:46:30] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 19:46:30] "[33mGET /blog/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 19:46:30] "[33mGET /web/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 19:46:30] "[33mGET /wordpress/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 19:46:30] "[33mGET /website/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 19:46:31] "[33mGET /wp/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 19:46:31] "[33mGET /news/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 19:46:31] "[33mGET /2020/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 19:46:31] "[33mGET /2019/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 19:46:31] "[33mGET /shop/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 19:46:32] "[33mGET /wp1/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 19:46:32] "[33mGET /test/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 19:46:32] "[33mGET /wp2/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 19:46:32] "[33mGET /site/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 19:46:32] "[33mGET /cms/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 19:46:33] "[33mGET /sito/wp-includes/wlwmanifest.xml HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 19:52:49] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 20:01:57] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 20:08:53] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 20:08:54] "[31m[1mPOST / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [28/Jun/2025 20:10:10] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 20:14:46] "[33mGET /developmentserver/metadatauploader HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 20:19:48] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 20:41:20] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 20:46:00] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 20:50:02] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 20:50:02] "[33mHEAD /checkout HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 20:50:02] "[33mHEAD /basket HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 20:50:02] "[33mHEAD /cart HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 21:04:09] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 21:07:49] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 21:13:13] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 21:13:13] "[31m[1mPOST / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [28/Jun/2025 21:16:07] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 21:18:20] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 21:37:28] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 21:37:32] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 21:37:51] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 21:37:59] "[33mGET /login HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 21:38:39] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 21:52:12] "[33mGET /admin/config.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 22:00:46] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 22:07:12] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 22:07:12] "[31m[1mPOST / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [28/Jun/2025 22:16:50] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 22:17:00] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 22:17:11] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 22:18:36] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 22:19:10] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 22:19:10] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 22:19:10] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 22:19:11] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 22:19:36] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 22:23:13] "[33mGET /.env HTTP/1.0[0m" 404 -
+167.94.138.117 - - [28/Jun/2025 22:24:26] code 400, message Bad request version ('À\x14À')
+167.94.138.117 - - [28/Jun/2025 22:24:26] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03åpÇ\x89` ¾ek\x92hHè¨^þ\x93tX'34P\x004ª&\x1eþð¬³ Ý¨\x00\x9dAÐM¾ä\x0f\x05¢$\x93SáBÙ\x8a¤ëÒwÇWå\x10\x0c\x10\x1cL\x86\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+167.94.138.117 - - [28/Jun/2025 22:24:31] "GET / HTTP/1.1" 200 -
+167.94.138.117 - - [28/Jun/2025 22:24:38] "GET / HTTP/1.1" 200 -
+167.94.138.117 - - [28/Jun/2025 22:24:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+167.94.138.117 - - [28/Jun/2025 22:24:42] code 505, message Invalid HTTP version (2.0)
+167.94.138.117 - - [28/Jun/2025 22:24:42] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+167.94.138.117 - - [28/Jun/2025 22:24:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+167.94.138.117 - - [28/Jun/2025 22:24:52] code 505, message Invalid HTTP version (2.0)
+167.94.138.117 - - [28/Jun/2025 22:24:52] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+167.94.138.117 - - [28/Jun/2025 22:24:58] code 400, message Bad request version ('À\x14À')
+167.94.138.117 - - [28/Jun/2025 22:24:58] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03íVZÍ,óv¼Ö\x98uÛ=!°Õ¸¡\x9eß1\x07U\x13\x9füãÔ\x1f/¸À \\\x99\x18\x1b\x1d£\x0c\x1dWï\x07ü\x16\x8e\x99\x95\x8b±&M½\x88º\x95&X5N\x89N\x92À\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+167.94.138.117 - - [28/Jun/2025 22:24:59] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 22:27:51] "[33mGET /admin/assets/js/views/login.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 22:40:26] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 22:42:31] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 22:45:44] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 22:45:54] "HEAD / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 22:50:15] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 22:50:15] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 22:54:17] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 23:01:38] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 23:03:38] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 23:13:19] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 23:25:04] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 23:25:18] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 23:31:37] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 23:34:11] "[33mGET /version HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 23:39:11] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 23:43:48] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 23:55:30] "[33mGET /geoip/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 23:55:31] "[33mGET /password.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 23:55:31] "[33mGET /1.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 23:55:31] "[33mGET /systembc/password.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 23:55:32] "[33mGET /form.html HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 23:55:32] "[33mGET /upl.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 23:55:33] "[33mGET /t4 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 23:55:33] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 23:56:05] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 23:56:05] "[31m[1mPOST / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [28/Jun/2025 23:58:52] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [28/Jun/2025 23:58:52] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 23:59:02] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [28/Jun/2025 23:59:05] "[33mGET /login HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 00:03:20] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 00:03:20] "[31m[1mPOST / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [29/Jun/2025 00:03:43] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 00:08:53] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 00:14:52] "[33mGET /admin/assets/css/jquery-ui.css HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 00:16:51] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 00:19:05] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 00:27:59] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 00:36:56] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 00:56:36] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 00:56:36] "[31m[1mPOST / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [29/Jun/2025 00:56:37] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 00:56:39] "[31m[1mPOST / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [29/Jun/2025 00:59:05] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 01:00:23] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 01:08:47] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 01:09:00] "HEAD / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 01:11:13] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 01:11:14] "[33mGET /.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 01:15:31] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 01:20:35] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 01:20:35] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 01:20:35] "[33mGET /.aws/credentials HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 01:20:35] "[33mGET /.env.backup HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 01:20:35] "[33mGET /.env.old HTTP/1.0[0m" 404 -
+137.184.164.7 - - [29/Jun/2025 01:23:31] "GET / HTTP/1.1" 200 -
+137.184.164.7 - - [29/Jun/2025 01:23:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 01:34:12] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 01:38:46] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 01:38:49] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 01:40:33] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 01:53:02] "[33mGET /.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 01:53:50] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 01:56:59] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 01:57:00] "[31m[1mPOST / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [29/Jun/2025 02:04:08] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 02:12:03] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 02:12:03] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 02:12:04] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 02:12:04] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 02:20:09] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 02:20:09] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 02:20:10] "[33mGET /favicon.png HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 02:24:31] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 02:24:31] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 02:39:02] "[33mGET /php-ofc-library/ofc_upload_image.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 02:51:12] "[33mGET /owa/auth/logon.aspx HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 02:52:32] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 02:54:00] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 02:54:47] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 03:00:32] "[33mGET /webui/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:04:17] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:05:20] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 03:08:20] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 03:09:06] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 03:12:27] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 03:14:36] "[33mGET /geoserver/web/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:17:17] "[33mGET /.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:17:58] "[33mGET /admin/assets/js/views/login.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:10] "[33mGET /wp-admin/maint/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:10] "[33mGET /.well-known/pki-validation/afnew.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:10] "[33mGET /nakrip.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:10] "[33mGET /.well-known/pki-validation/install.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:11] "[33mGET /wp-includes/js/tinymce/utils/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:11] "[33mGET /wp-admin/includes/users.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:11] "[33mGET /users.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:11] "[33mGET /wp-activate.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:11] "[33mGET /wp-configs.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:11] "[33mGET /Alfa.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:11] "[33mGET /wp-admin/css/colors/midnight/admin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:11] "[33mGET /wp-content/uploads/2023/08/admiin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:11] "[33mGET /wp-includes/Text/Diff/Engine.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:11] "[33mGET /wp-includes/block-supports/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:11] "[33mGET /wp-includes/Requests/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:11] "[33mGET /www.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:11] "[33mGET /admin-header.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:11] "[33mGET /max.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:11] "[33mGET /go.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:11] "[33mGET /admin/controller/extension/extension/ultra.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:12] "[33mGET /wp-includes/ID3/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:12] "[33mGET /wp-admin/images/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:12] "[33mGET /wp-admin/network/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:12] "[33mGET /readme.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:12] "[33mGET /wp-content/uploads/de_fb_uploads/b.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:12] "[33mGET /admin/controller/extension/extension/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:12] "[33mGET /wp-includes/ID3/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:12] "[33mGET /wp-links.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:12] "[33mGET /wso.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:12] "[33mGET /css/admin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:12] "[33mGET /wp-admin/css/fw.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:12] "[33mGET /alfanew.PHP7 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:12] "[33mGET /raf.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:12] "[33mGET /shell.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:12] "[33mGET /xxx.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:13] "[33mGET /wp-includes/css/dist/block-library/admin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:13] "[33mGET /wp-admin/css/colors/ocean/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:13] "[33mGET /wp-login.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:13] "[33mGET /wp-admin/images/profile.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:13] "[33mGET /fx.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:13] "[33mGET /ge.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:13] "[33mGET /templates/beez3/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:13] "[33mGET /xx.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:13] "[33mGET /alfa.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:13] "[33mGET /wp-class.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:13] "[33mGET /credits.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:13] "[33mGET /doc.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:13] "[33mGET /news.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:13] "[33mGET /wp-content/atomlib.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:13] "[33mGET /autoload_classmap.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:14] "[33mGET /gecko.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:14] "[33mGET /wp-admin/js/widgets/xmrlpc.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:14] "[33mGET /wp-content/plugins/ubh/1.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:14] "[33mGET /text.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:14] "[33mGET /buy.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:14] "[33mGET /css.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:14] "[33mGET /network.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:14] "[33mGET /wp-includes/css.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:14] "[33mGET /style.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:14] "[33mGET /g.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:14] "[33mGET /wp-l0gin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:14] "[33mGET /gzak2w.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:14] "[33mGET /ws.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:14] "[33mGET /.well-known/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:14] "[33mGET /wp-content/plugins/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:14] "[33mGET /wp.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:15] "[33mGET /admin.php1 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:15] "[33mGET /wp-includes/wp-includes_function.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:15] "[33mGET /wp-admin/network/network.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:15] "[33mGET /wp-includes/js/tinymce/skins/lightgray/img/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:15] "[33mGET /cgi-bin/wp-login.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:15] "[33mGET /wp-includes/IXR/allez.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:15] "[33mGET /sx.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:15] "[33mGET /wp-content/plugins/pwnd/dropdown.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:15] "[33mGET /wp-content/plugins/pwnd-1/dropdown.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:15] "[33mGET /wp-conflg.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:15] "[33mGET /wp-content/uploads/wpr-addons/forms/RxRzhwix.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:15] "[33mGET /xmlrpc.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:15] "[33mGET /wp-content/plugins/envato-market/inc/class-envato-market-github.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:15] "[33mGET /403.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:15] "[33mGET /aaa.php/getid3-core.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:16] "[33mGET /wp-admin/css/colors/coffee/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:16] "[33mGET /wp-includes/blocks/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:16] "[33mGET /sh.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:16] "[33mGET /cron.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:16] "[33mGET /.well-known/pki-validation/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:16] "[33mGET /wp-admin/css/colors/blue/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:16] "[33mGET /theme.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:16] "[33mGET /wp-content/uploads/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:16] "[33mGET /wp-admin/css/colors/midnight/colors.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:16] "[33mGET /wp-admin/css/colors/ectoplasm/admin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:16] "[33mGET /updates.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:16] "[33mGET /wp-content/themes/Divi/includes/widgets/wp-blog.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:16] "[33mGET /data.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:16] "[33mGET /dav.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:16] "[33mGET /mah/function.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:16] "[33mGET /wp-includes/images/include.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:17] "[33mGET /wp-includes/Requests/library/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:17] "[33mGET /1bwqtre/admin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:17] "[33mGET /.well-known/gecko-litespeed.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:17] "[33mGET /123.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:17] "[33mGET /delpaths.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:17] "[33mGET /v.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:17] "[33mGET /wp-admin/includes/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:17] "[33mGET /meta.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:17] "[33mGET /defaults.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:17] "[33mGET /.well-known/pki-validation/xmrlpc.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:17] "[33mGET /wp-content/plugins/linkpreview/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:17] "[33mGET /wp-includes/block-patterns/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:17] "[33mGET /wp-includes/install.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:17] "[33mGET /wp-includes/php-compat/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:17] "[33mGET /files.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:18] "[33mGET /wp-content/plugins/admin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:18] "[33mGET /content.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:18] "[33mGET /access.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:18] "[33mGET /wp-includes/js/codemirror/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:18] "[33mGET /wp-content/plugins/wordfence/js/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:18] "[33mGET /fi2.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:18] "[33mGET /wp-content/plugins/pwnd/as.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:18] "[33mGET /Marvins.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:18] "[33mGET /jp.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:18] "[33mGET /wp-seo.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:18] "[33mGET /ab.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:18] "[33mGET /wp-trackback.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:18] "[33mGET /wp-content/gallery/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:18] "[33mGET /wp-includes/admin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:18] "[33mGET /wp-includes/customize/chosen.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:19] "[33mGET /wp-includes/css/dist/widgets/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:19] "[33mGET /config.php7 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:19] "[33mGET /upload/login.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:19] "[33mGET /backup.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:19] "[33mGET /.tmb/admin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:19] "[33mGET /contents.php/lv.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:19] "[33mGET /wp-admin/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:19] "[33mGET /sim.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:19] "[33mGET /wp-includes/SimplePie/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:19] "[33mGET /function.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:19] "[33mGET /system_log.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:19] "[33mGET /plugins.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:19] "[33mGET /wp-content/upgrade/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:19] "[33mGET /wp-content/uploads/2023/08/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:19] "[33mGET /wp-info.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:19] "[33mGET /he.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:20] "[33mGET /avaa.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:20] "[33mGET /1index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:20] "[33mGET /wp-includes/PHPMailer/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:20] "[33mGET /wp-admin/css/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:20] "[33mGET /wp-content/themes/wp-pridmag/init.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:20] "[33mGET /cgi-bin/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:20] "[33mGET /wp-admin/style.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:20] "[33mGET /.well-known/acme-challenge/makeasmtp.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:20] "[33mGET /settings.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:20] "[33mGET /al.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:20] "[33mGET /chosen.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:20] "[33mGET /y.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:20] "[33mGET /lv.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:20] "[33mGET /wp-api.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:20] "[33mGET /.well-known/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:21] "[33mGET /wp-admin/user/cloud.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:21] "[33mGET /admin/index_upload.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:21] "[33mGET /nf.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:21] "[33mGET /about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:21] "[33mGET /wp-includes/widgets/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:21] "[33mGET /gc.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:21] "[33mGET /xml.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:21] "[33mGET /wp-includes/customize/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:21] "[33mGET /yanz.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:21] "[33mGET /wp-admin/css/wp-login.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:21] "[33mGET /error.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:21] "[33mGET /wp-content/uploads/2023/admiin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:21] "[33mGET /cloud.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:21] "[33mGET /randkeyword.PhP7 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:21] "[33mGET /cd.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:22] "[33mGET /atomlib.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:22] "[33mGET /.well-known/file.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:22] "[33mGET /wp-logout.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:22] "[33mGET /wp-includes/Text/autoload_classmap.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:22] "[33mGET /cljntmcz.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:22] "[33mGET /themes/zMousse/otuz1.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:22] "[33mGET /wp-cron.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:22] "[33mGET /wp-includes/autoload_classmap.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:22] "[33mGET /wp-content/plugins/simple/simple.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:22] "[33mGET /wso112233.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:22] "[33mGET /wp-content/plugins/core-plugin/include.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:22] "[33mGET /wp-content/uploads/wp-login.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:22] "[33mGET /files/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:22] "[33mGET /revision.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:22] "[33mGET /wp-admin/wp-admin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:22] "[33mGET /hehe.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:23] "[33mGET /new.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:23] "[33mGET /about/function.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:23] "[33mGET /st.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:23] "[33mGET /wp-admin/js/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:23] "[33mGET /as.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:23] "[33mGET /fw.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:23] "[33mGET /classwithtostring.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:23] "[33mGET /wp-includes/customize/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:23] "[33mGET /wp-content/x/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:23] "[33mGET /.well-known/acme-challenge/radio.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:23] "[33mGET /wp-content/themes/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:23] "[33mGET /wp-content/languages/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:23] "[33mGET /favicon.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:23] "[33mGET /wp-content/install.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:23] "[33mGET /webadmin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:24] "[33mGET /ioxi-o.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:24] "[33mGET /admin/admin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:24] "[33mGET /yox.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:24] "[33mGET /wp-content/themes/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:24] "[33mGET /wp-admin/css/colors/light/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:24] "[33mGET /.well-known/acme-challenge/themes.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:24] "[33mGET /wp-includes/fonts/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:24] "[33mGET /wp-admin/maint/edit.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:24] "[33mGET /wp-includes/SimplePie/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:24] "[33mGET /cgi-bin/xmrlpc.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:24] "[33mGET /class.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:24] "[33mGET /alfa-rexhp1.p HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:24] "[33mGET /.well-known/acme-challenge/mariju.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:24] "[33mGET /menu.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:24] "[33mGET /fox.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:25] "[33mGET /jquery.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:25] "[33mGET /default.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:25] "[33mGET /wp-admin/images/install.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:25] "[33mGET /wp-content/uploads/2025/03/themes.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:25] "[33mGET /mar.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:25] "[33mGET /wp-admin/js/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:25] "[33mGET /wp-cache.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:25] "[33mGET /plugin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:25] "[33mGET /1.php7 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:25] "[33mGET /edit.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:25] "[33mGET /wp-content/languages/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:25] "[33mGET /cc.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:25] "[33mGET /google.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:25] "[33mGET /wp-admin/license.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:25] "[33mGET /wp-content/uploads/cache.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:26] "[33mGET /s.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:26] "[33mGET /wp-admin/css/colors/blue/blkafewl.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:26] "[33mGET /wp-admin/user/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:26] "[33mGET /wp-includes/js/tinymce/skins/wordpress/images/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:26] "[33mGET /wp-admin/user/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:26] "[33mGET /wp-admin/css/admin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:26] "[33mGET /css/dmtixucz/golden-access/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:26] "[33mGET /bi.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:26] "[33mGET /manager.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:26] "[33mGET /admin/wp-signup.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:26] "[33mGET /gecko-new.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:26] "[33mGET /wp-admin/maint/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:26] "[33mGET /shx.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:26] "[33mGET /wp-admin/css/colors/blue/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:26] "[33mGET /.well-known/pki-validation/parx.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:26] "[33mGET /wp-files.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:27] "[33mGET /wp-content/cache/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:27] "[33mGET /z.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:27] "[33mGET /app.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:27] "[33mGET /xmrlpc.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:27] "[33mGET /special.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:27] "[33mGET /images.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:27] "[33mGET /wp-content/updates.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:27] "[33mGET /ova-tools.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:27] "[33mGET /help.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:27] "[33mGET /wp-includes/IXR/wp-login.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:27] "[33mGET /shop.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:27] "[33mGET /mini.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:27] "[33mGET /wp-includes/SimplePie/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:27] "[33mGET /images/k.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:27] "[33mGET /samll.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:28] "[33mGET /wp-includes/css/tj.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:28] "[33mGET /lol.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:28] "[33mGET /wp-includes/css/dist/block-library/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:28] "[33mGET /TNT.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:28] "[33mGET /wp-includes/pomo/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:28] "[33mGET /hinfofuns.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:28] "[33mGET /wp-admin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:28] "[33mGET /themes.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:28] "[33mGET /moon.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:28] "[33mGET /license.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:28] "[33mGET /mcs.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:28] "[33mGET /v4.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:28] "[33mGET /wp-admin/css/colors/ocean/admiin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:28] "[33mGET /.well-known/acme-challenge/admin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:28] "[33mGET /wp-content/plugins/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:28] "[33mGET /.well-known/acme-challenge/doc.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:29] "[33mGET /wp-content/plugins/wp-help/admin/wp-fclass.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:29] "[33mGET /system.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:29] "[33mGET /hehehehe.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:29] "[33mGET /wp-includes/ID3/module.tag.id3v3.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:29] "[33mGET /wp-admin/includes/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:29] "[33mGET /wp-content/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:29] "[33mGET /gebase.php69 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:29] "[33mGET /wp-admin/includes/xmrlpc.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:29] "[33mGET /html.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:29] "[33mGET /12.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:29] "[33mGET /wp-admin/admin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:29] "[33mGET /bypass.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:29] "[33mGET /templates/atomic/templates.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:29] "[33mGET /config.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:29] "[33mGET /wp-includes/Text/Diff/Engine/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:30] "[33mGET /wp-admin/images/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:30] "[33mGET /wp-content/uploads/setup HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:30] "[33mGET /wp-corn-sample.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:30] "[33mGET /wp-admin/maint/admin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:30] "[33mGET /wsa.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:30] "[33mGET /wp-includes/blocks/button/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:30] "[33mGET /wp-index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:30] "[33mGET /ini.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:30] "[33mGET /wp-includes/Text/lv.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:30] "[33mGET /lock360.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:30] "[33mGET /makeasmtp.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:30] "[33mGET /flower.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:30] "[33mGET /wp-admin/css/colors/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:30] "[33mGET /mariju.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:30] "[33mGET /vv.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:31] "[33mGET /about.PHP HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:31] "[33mGET /pi.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:31] "[33mGET /cgi-bin/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:31] "[33mGET /wp-content/file.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:31] "[33mGET /index/function.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:31] "[33mGET /wp-content/uploads/admiin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:31] "[33mGET /wp-content/uploads/2014/03/smile.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:31] "[33mGET /.well-known/acme-challenge/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:31] "[33mGET /alfanew.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:31] "[33mGET /update.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:31] "[33mGET /wp-content/db-cache.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:31] "[33mGET /wp-includes/wp-class.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:31] "[33mGET /cong.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:31] "[33mGET /wp-admin/css/colors/blue/admin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:31] "[33mGET /init.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:31] "[33mGET /wander.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:32] "[33mGET /adminer.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:32] "[33mGET /alfa-rex.php7 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:32] "[33mGET /aaa.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:32] "[33mGET /f35.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:32] "[33mGET /wp-includes/certificates/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:32] "[33mGET /aa.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:32] "[33mGET /sim.php/wp-includes/certificates/plugins.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:32] "[33mGET /wp-admin/css/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:32] "[33mGET /radio.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:32] "[33mGET /wp-content/plugins/atomlib.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:32] "[33mGET /wp-content/uploads/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:32] "[33mGET /wp-admin/network/plugins.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:32] "[33mGET /wp-includes/IXR/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:32] "[33mGET /admin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:32] "[33mGET /repeater.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:33] "[33mGET /wp-signup.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:33] "[33mGET /wp-admin/alfa.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:33] "[33mGET /templates/atomic/error.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:33] "[33mGET /wp-includes/Text/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:33] "[33mGET /wp-admin/js/admin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:33] "[33mGET /marijuana.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:33] "[33mGET /back.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:33] "[33mGET /wp-includes/ID3/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:33] "[33mGET /wp-includes/assets/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:33] "[33mGET /wp-content/themes/seotheme/mar.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:33] "[33mGET /admin/function.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:33] "[33mGET /wp-content/plugins/wp-conflg.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:33] "[33mGET /wp-admin/css/colors/blue/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:33] "[33mGET /epinyins.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:33] "[33mGET /wi.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:34] "[33mGET /as/function.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:34] "[33mGET /images/class-config.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:34] "[33mGET /filter.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:34] "[33mGET /wp-includes/js/jcrop/Jcrop.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:34] "[33mGET /header.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:34] "[33mGET /k.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:34] "[33mGET /.well-known/lofmebwd.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:34] "[33mGET /wp-signin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:34] "[33mGET /indeex.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:34] "[33mGET /by.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:34] "[33mGET /wp-admin/css/colors/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:34] "[33mGET /wp-content/themes/sky-pro/js.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:34] "[33mGET /wp-includes/js/codemirror/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:34] "[33mGET /we.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:34] "[33mGET /wp-file.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:34] "[33mGET /setup-config.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:35] "[33mGET /wp-admin/classwithtostring.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:35] "[33mGET /wp-includes/blocks/block/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:35] "[33mGET /wp-includes/rest-api/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:35] "[33mGET /wp-includes/style-engine/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:35] "[33mGET /.tmb/cloud.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:35] "[33mGET /wp-admin/users.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:35] "[33mGET /file.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:35] "[33mGET /wp-includes/Requests/library/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:35] "[33mGET /cgi-bin/radio.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:35] "[33mGET /wp-admin/network/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:35] "[33mGET /thumbs.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:35] "[33mGET /wp-includes/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:35] "[33mGET /wp2.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:35] "[33mGET /error_log.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:35] "[33mGET /wp-includes/css/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:36] "[33mGET /wp-content/themes/astra/inc/ki1k.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:36] "[33mGET /wp-admin/css/colors/sunrise/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:36] "[33mGET /wp-core.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:36] "[33mGET /mari.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:36] "[33mGET /randkeyword.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:36] "[33mGET /wp-content/admin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:36] "[33mGET /wp-admin/css/colors/ocean/index.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:36] "[33mGET /temp.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:36] "[33mGET /.well-known/acme-challenge/about.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:36] "[33mGET /wp-content/themes/alera/alpha.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:36] "[33mGET /browse.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:36] "[33mGET /wp-content/plugins/dummyyummy/wp-signup.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:36] "[33mGET /wp-content/plugins/wso.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:36] "[33mGET /wp-content/uploads/autoload_classmap.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:36] "[33mGET /wp-admin/file.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:37] "[33mGET /wp-content/plugins/seoo/ulc2.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:37] "[33mGET /iR7SzrsOUEP.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:25:37] "[33mGET /wp-includes/pomo/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:39:33] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 03:45:45] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:45:46] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 03:47:27] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 03:47:27] "[31m[1mPOST / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [29/Jun/2025 03:50:08] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 03:55:43] "[33mGET /.well-known/acme-challenge/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 04:02:22] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 04:02:22] "[33mGET /.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 04:13:26] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 04:33:36] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 04:38:34] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 04:52:20] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 05:09:35] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:15:08] "[33mGET /web.zip HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:15:11] "[33mGET /site.zip HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:17:46] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 05:17:46] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 05:17:46] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:21:20] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 05:21:22] "[33mGET /wordpress/ HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:22:34] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 05:26:54] "[33mPOST /hello.world?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:26:56] "[33mGET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:26:57] "[33mGET /vendor/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:26:58] "[33mGET /vendor/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:00] "[33mGET /vendor/phpunit/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:01] "[33mGET /vendor/phpunit/phpunit/LICENSE/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:03] "[33mGET /vendor/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:04] "[33mGET /phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:06] "[33mGET /phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:07] "[33mGET /phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:09] "[33mGET /phpunit/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:09] "[33mGET /lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:10] "[33mGET /lib/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:11] "[33mGET /lib/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:12] "[33mGET /lib/phpunit/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:13] "[33mGET /lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:13] "[33mGET /laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:14] "[33mGET /www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:15] "[33mGET /ws/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:16] "[33mGET /yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:17] "[33mGET /zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:18] "[33mGET /ws/ec/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:19] "[33mGET /V2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:19] "[33mGET /tests/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:20] "[33mGET /test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:21] "[33mGET /testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:22] "[33mGET /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:23] "[33mGET /demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:23] "[33mGET /cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:24] "[33mGET /crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:25] "[33mGET /admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:26] "[33mGET /backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:26] "[33mGET /blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:27] "[33mGET /workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:28] "[33mGET /panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:29] "[33mGET /public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:30] "[33mGET /apps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:30] "[33mGET /app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:31] "[33mGET /index.php?s=/index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:32] "[33mGET /public/index.php?s=/index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:33] "[33mGET /index.php?lang=../../../../../../../../usr/local/lib/php/pearcmd&+config-create+/&/<?echo(md5("hi"));?>+/tmp/index1.php HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:33] "[33mGET /index.php?lang=../../../../../../../../tmp/index1 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:27:34] "[33mGET /containers/json HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:28:43] "HEAD / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 05:28:43] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 05:58:27] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 05:58:27] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 05:58:27] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 05:58:28] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 06:03:37] "[33mGET /admin/assets/js/pbxlib.js HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 06:17:24] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 06:17:33] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 06:17:33] "[31m[1mPOST / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [29/Jun/2025 06:19:41] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 06:20:38] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 06:22:03] "[33mGET /aaa9 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 06:22:08] "[33mGET /aab8 HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 06:22:18] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 06:36:13] "[33mGET /actuator/health HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 06:40:05] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 06:40:06] "[31m[1mPOST / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [29/Jun/2025 06:40:06] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 06:40:06] "[31m[1mPOST / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [29/Jun/2025 06:43:19] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 06:50:38] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 06:53:28] "[33mGET /admin/assets/css/jquery-ui.css HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 07:13:55] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 07:19:52] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 07:19:53] "[31m[1mPOST / HTTP/1.0[0m" 405 -
+5.101.64.6 - - [29/Jun/2025 07:25:29] "GET / HTTP/1.0" 200 -
+193.24.123.69 - - [29/Jun/2025 07:25:42] code 400, message Bad request version ('À\x13À')
+193.24.123.69 - - [29/Jun/2025 07:25:42] "[31m[1m\x16\x03\x01\x05¨\x01\x00\x05¤\x03\x03$®Õç\x8c§~óÄÎ\x86£\x0cg´\x95ñÆ5ÕWx\x11\x14UÅæÐ67Qè \x90E.ñiÕ2\x1asZçfó\x122î¥\x0c% \x1fÞI«±\x10[ñ\x9b\x8d0\x93\x00\x1aÀ+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+193.24.123.69 - - [29/Jun/2025 07:25:43] "[33mGET /aaa9 HTTP/1.1[0m" 404 -
+193.24.123.69 - - [29/Jun/2025 07:25:43] code 400, message Bad request version ('À\x13À')
+193.24.123.69 - - [29/Jun/2025 07:25:43] "[31m[1m\x16\x03\x01\x05¨\x01\x00\x05¤\x03\x03\x1c5bá\x89.ÛÍ/¾WG\x0e\x8d(\x97\x9eº|\x85ÿ%\x00\x994²_\x15\x06ÿJN 8Üª³øeÖ\x1dF0tñæånEÛ#Å;ª¡\x99éÌúg©òà\x1b,\x00\x1aÀ+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+193.24.123.69 - - [29/Jun/2025 07:25:43] "[33mGET /aab9 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 07:45:53] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 07:46:21] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 07:46:21] "[33mGET /.git/config HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 07:51:45] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 07:51:46] "[31m[1mPOST / HTTP/1.0[0m" 405 -
+127.0.0.1 - - [29/Jun/2025 07:51:59] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 08:02:27] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 08:14:28] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 08:15:03] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 08:15:05] "[33mGET /.env HTTP/1.0[0m" 404 -
+Traceback (most recent call last):
+  File "/root/lebenskompass-api/lebenskompass-api/venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 201, in run
+    self.manage_workers()
+  File "/root/lebenskompass-api/lebenskompass-api/venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 570, in manage_workers
+    self.spawn_workers()
+  File "/root/lebenskompass-api/lebenskompass-api/venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 642, in spawn_workers
+    time.sleep(0.1 * random.random())
+  File "/root/lebenskompass-api/lebenskompass-api/venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 241, in handle_chld
+    self.reap_workers()
+  File "/root/lebenskompass-api/lebenskompass-api/venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 529, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/lebenskompass-api/lebenskompass-api/venv/bin/gunicorn", line 8, in <module>
+    sys.exit(run())
+             ^^^^^
+  File "/root/lebenskompass-api/lebenskompass-api/venv/lib/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 66, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]", prog=prog).run()
+  File "/root/lebenskompass-api/lebenskompass-api/venv/lib/python3.12/site-packages/gunicorn/app/base.py", line 235, in run
+    super().run()
+  File "/root/lebenskompass-api/lebenskompass-api/venv/lib/python3.12/site-packages/gunicorn/app/base.py", line 71, in run
+    Arbiter(self).run()
+  File "/root/lebenskompass-api/lebenskompass-api/venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 228, in run
+    self.halt(reason=inst.reason, exit_status=inst.exit_status)
+  File "/root/lebenskompass-api/lebenskompass-api/venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 341, in halt
+    self.stop()
+  File "/root/lebenskompass-api/lebenskompass-api/venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 395, in stop
+    time.sleep(0.1)
+  File "/root/lebenskompass-api/lebenskompass-api/venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 241, in handle_chld
+    self.reap_workers()
+  File "/root/lebenskompass-api/lebenskompass-api/venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 529, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+127.0.0.1 - - [29/Jun/2025 08:20:37] "[33mGET /.env HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 08:24:17] "[33mGET /robots.txt HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 08:24:17] "GET / HTTP/1.0" 200 -
+147.185.132.156 - - [29/Jun/2025 08:26:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jun/2025 08:27:31] "GET / HTTP/1.0" 200 -
+127.0.0.1 - - [29/Jun/2025 08:29:12] "[33mGET /admin/assets/css/jquery-ui.css HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 08:30:18] "[33mGET /zeichen HTTP/1.0[0m" 404 -
+127.0.0.1 - - [29/Jun/2025 08:31:35] "GET / HTTP/1.0" 200 -
+147.185.132.102 - - [29/Jun/2025 08:40:45] "GET / HTTP/1.0" 200 -
+185.242.226.47 - - [29/Jun/2025 08:49:07] code 400, message Bad request version ('À\x14À')
+185.242.226.47 - - [29/Jun/2025 08:49:07] "[31m[1m\x16\x03\x01\x00\x8c\x01\x00\x00\x88\x03\x032ü\x04ñ\x9d}¯ì(\x8cøçâEP«üá\x1e\x15¹³\x04\x04÷\x19±\x89YX\x15\x05\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -

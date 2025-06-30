@@ -3,8 +3,11 @@ import datetime
 import os
 
 # Setze Pfad zu den Ephemeriden-Dateien
-EPHE_PATH = os.path.join(os.path.dirname(__file__), "ephe")
-swe.set_ephe_path(EPHE_PATH)
+# TEMPORÄR DEAKTIVIERT für Debug-Zwecke
+# Ephemeriden-Dateipfad – normalerweise notwendig für Swiss Ephemeris
+# EPHE_PATH = os.path.join(os.path.dirname(__file__), "ephe")
+# swe.set_ephe_path(EPHE_PATH)
+
 
 # Definierte Planeten inkl. Node (Mondknoten)
 PLANETS = {
